@@ -100,3 +100,5 @@ Se conecta al backend **Course API** para:
 ---
 
 ## Capturas
+<img width="1846" height="3565" alt="screencapture-localhost-5173-2025-09-19-04_22_43" src="https://github.com/user-attachments/assets/da2b78c1-6d45-43d4-beff-9ca3b8eb58dd" />
+
