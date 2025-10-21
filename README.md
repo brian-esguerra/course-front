@@ -99,4 +99,16 @@ Se conecta al backend **Course API** para:
 
 ---
 
-## Capturas
+## 🖼️ Capturas de la aplicación
+
+### Pantalla de Inicio
+![Home](./public/screenshots/home.png)
+
+### Pantalla de Cursos
+![Cursos](./public/screenshots/cursos.png)
+
+### Detalle del Curso
+![Course Detail](./public/screenshots/course-detail.png)
+
+### Registro
+![Register](./public/screenshots/register.png)
