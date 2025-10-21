@@ -16,6 +16,11 @@ const data = [
   },
   {
     id:4,
+    link:'/courses',
+    title:'catálogo'
+  },
+  {
+    id:5,
     link:'/#contact',
     title:'Contacto'
   },

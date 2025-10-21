@@ -25,7 +25,7 @@ const schema = yup.object({
 });
 
 function Login() {
-  const [signin, {data: signinData, error: signinError, isloading: signinLoadin}] = useLoginMutation();
+  const [signin, {data: signinData, error: signinError, isloading: signinLoading}] = useLoginMutation();
   const dispatch = useDispatch();
   const navigate = useNavigate();
 

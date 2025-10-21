@@ -119,7 +119,7 @@ function Register() {
                 <div key={plan.id} className="flex items-center ps-4 border border-gray-200 rounded-sm dark:border-gray-700">
                   <input id={`radio_${plan.id}`} {...register("plan", { required: true })} type="radio" value={plan.id} name="plan" checked={selectedPlan === String(plan.id)} onChange={(e) => setSelectedPlan(e.target.value)} className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 focus:ring-2" />
                   <label for={`radio_${plan.id}`} className="w-full py-4 ms-2 text-sm font-medium text-gray-900">{plan.name} - {plan.credits} créditos</label>
-              </div>
+                </div>
               ))}
               {errors.plan && <p className="text-red-500 text-xs">{errors.plan.message}</p>}
             </div>

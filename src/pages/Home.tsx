@@ -41,7 +41,7 @@ function Home() {
         </div>
       </Section>
 
-      <Section id="courses" title="Cursos populares" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit.">
+      <Section id="courses" title="Cursos populares" subtitle="Conoce nuestro amplio catálogo de cursos.">
         {coursesLoading && <Alert type="info" message="Cargando cursos..." />}
         {coursesError && <Alert type="error" message="No se obtuvieron cursos" />}
         

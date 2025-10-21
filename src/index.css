@@ -45,9 +45,9 @@ body {
   margin-inline: auto;
 }
 
-.layout {
+/* .layout {
   padding: 2rem;
-}
+} */
 
 section {
   padding: 8rem 0;
@@ -56,6 +56,9 @@ section {
 }
 section:nth-child(even){
   background: var(--color-light);
+}
+.container__no_title{
+  padding: 4rem 0 !important;
 }
 
 .title{

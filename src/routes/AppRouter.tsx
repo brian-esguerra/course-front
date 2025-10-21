@@ -5,6 +5,7 @@ import Login from "../pages/Login";
 import Welcome from "../pages/Welcome";
 import PrivateRoute from "./PrivateRoute";
 import CourseDetail from "../pages/CourseDetail";
+import Courses from "../pages/Courses";
 
 export default function AppRouter() {
   return (
@@ -14,8 +15,8 @@ export default function AppRouter() {
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/welcome" element={<PrivateRoute><Welcome /></PrivateRoute>} />
+        <Route path="/courses" element={<Courses />} />
         <Route path="/course/:id" element={<CourseDetail />} />
-        {/* <Route path="/course" element={<Courses />} /> */}
       </Routes>
     </Router>
   );

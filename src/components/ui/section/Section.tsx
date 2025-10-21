@@ -8,9 +8,10 @@ interface SectionProps {
 }
 
 export default function Section({ id, title, subtitle, children }: SectionProps) {
+  let showTitle = title == null ? 'container__no_title' : 'container__full';
   return (
     <>
-      <section id={id}>
+      <section id={id} className={`${showTitle}`}>
         <div className="container">
           <div className="text-center">
             <h2 className="text-gray-800 font-bold mb-2">
